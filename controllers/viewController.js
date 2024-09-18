@@ -77,7 +77,7 @@ exports.updateUserData = catchAsync(async (req, res, next) => {
     },
   );
 
-  console.log('finished');
+  // console.log('finished');
 
   res.status(200).render('account', {
     title: 'Your account',
